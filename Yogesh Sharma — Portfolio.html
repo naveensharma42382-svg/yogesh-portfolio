@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Yogesh Sharma — Content Creator & Digital Marketer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<script>document.documentElement.classList.add('js')</script>
+<style>
+:root{--bg:#07050d;--ch:#0f0b18;--p1:#4c1d95;--p2:#8b5cf6;--p3:#a855f7;--lav:#ddd6fe;--tx:#f5f3ff;--mu:#a59cc0;--ln:rgba(167,139,250,.18);--gl:rgba(255,255,255,.045);
+--hd:'Space Grotesk','Inter',system-ui,sans-serif;--bd:'Inter',system-ui,-apple-system,'Segoe UI',sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);color-scheme:dark}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 76px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 16px/1.65 var(--bd);overflow-x:hidden;
+background-image:radial-gradient(900px 600px at 85% -5%,rgba(124,58,237,.28),transparent 60%),radial-gradient(700px 500px at -10% 40%,rgba(76,29,149,.3),transparent 60%)}
+a{color:inherit;text-decoration:none}
+.w{width:min(1180px,100% - 40px);margin-inline:auto}
+section{padding:110px 0}
+.eyebrow{font:600 12px var(--bd);letter-spacing:.22em;text-transform:uppercase;color:var(--p3);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:28px;height:1px;background:var(--p3)}
+h1,h2,h3{font-family:var(--hd);margin:0;line-height:1.02;letter-spacing:-.02em}
+h2{font-size:clamp(2rem,4.6vw,3.6rem);margin:16px 0 18px}
+p{color:var(--mu);margin:0}
+.grad{background:linear-gradient(100deg,#c4b5fd,#a855f7 55%,#7c3aed);-webkit-background-clip:text;background-clip:text;color:transparent}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;border-radius:999px;font:600 13px var(--bd);letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--ln);background:var(--gl);backdrop-filter:blur(14px);transition:.3s}
+.btn.pri{background:linear-gradient(120deg,#7c3aed,#a855f7);border-color:transparent;box-shadow:0 10px 40px -10px rgba(168,85,247,.7)}
+.btn:hover{transform:translateY(-2px);border-color:var(--p3)}
+.glass{background:linear-gradient(160deg,rgba(255,255,255,.07),rgba(255,255,255,.02));border:1px solid var(--ln);border-radius:22px;backdrop-filter:blur(18px);box-shadow:0 30px 70px -30px rgba(0,0,0,.8),inset 0 1px 0 rgba(255,255,255,.06)}
+/* nav */
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:rgba(7,5,13,.72);backdrop-filter:blur(18px);border-bottom:1px solid var(--ln)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:72px;gap:20px}
+.logo{font:700 15px var(--hd);letter-spacing:.2em}
+.logo i{font-style:normal;color:var(--p3)}
+.links{display:flex;gap:34px;list-style:none;margin:0;padding:0}
+.links a{font:500 12px var(--bd);letter-spacing:.16em;color:var(--mu);transition:.25s}
+.links a:hover{color:#fff}
+.cta{padding:11px 20px;font-size:11px}
+.burger{display:none;width:44px;height:44px;border-radius:12px;border:1px solid var(--ln);background:var(--gl);cursor:pointer;color:#fff;font-size:20px}
+@media(max-width:940px){.burger{display:block}.cta{display:none}
+.links{position:absolute;left:0;right:0;top:72px;flex-direction:column;gap:0;background:rgba(10,7,18,.97);border-bottom:1px solid var(--ln);padding:8px 20px 18px;display:none}
+.links.open{display:flex}.links a{display:block;padding:16px 0;font-size:13px;border-bottom:1px solid var(--ln)}}
+/* hero */
+.hero{padding:70px 0 90px}
+.hg{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center}
+h1{font-size:clamp(2.7rem,6.4vw,5.6rem);font-weight:700;margin:22px 0 24px}
+.sub{font:600 12px var(--bd);letter-spacing:.18em;color:var(--lav);margin-bottom:22px;line-height:1.9}
+.hero p{max-width:540px;margin-bottom:14px;font-size:1.05rem}
+.hero p b{color:var(--tx);font-weight:500}
+.btns{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px}
+.stage{position:relative;min-height:500px;padding:46px 0}
+.panel{padding:20px;margin:0 22px}
+.dots{display:flex;gap:6px;align-items:center;margin-bottom:16px;font:500 11px var(--bd);color:var(--mu);letter-spacing:.12em}
+.dots i{width:9px;height:9px;border-radius:50%;background:#3b2e63}.dots span{margin-left:auto}
+.tl{background:rgba(0,0,0,.35);border:1px solid var(--ln);border-radius:14px;padding:12px;display:grid;gap:7px;position:relative}
+.tr{display:flex;gap:5px;height:18px}.tr i{border-radius:5px;background:linear-gradient(90deg,#6d28d9,#a855f7)}
+.tr i.d{background:#2a1f4d}.tr i.l{background:linear-gradient(90deg,#c4b5fd,#8b5cf6)}
+.ph{position:absolute;top:6px;bottom:6px;left:46%;width:2px;background:#fff;box-shadow:0 0 12px #c084fc;border-radius:2px}
+.ph::before{content:"";position:absolute;top:-4px;left:-4px;border:5px solid transparent;border-top-color:#fff}
+.chart{margin-top:14px;display:grid;grid-template-columns:1.5fr 1fr;gap:12px}
+.cb{border:1px solid var(--ln);border-radius:14px;padding:12px;background:rgba(255,255,255,.025)}
+.cb small{display:block;font:500 10px var(--bd);letter-spacing:.14em;color:var(--mu);text-transform:uppercase}
+.cb strong{font:700 20px var(--hd)}
+.cb svg{width:100%;height:70px;display:block;margin-top:6px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:12px}
+.chips span{font:500 10px var(--bd);letter-spacing:.1em;padding:6px 11px;border-radius:99px;border:1px solid var(--ln);color:var(--lav);background:rgba(139,92,246,.1)}
+.fc{position:absolute;padding:14px 18px;transform:translate(calc(var(--mx,0)*var(--d)*1px),calc(var(--my,0)*var(--d)*1px));animation:fl 7s ease-in-out infinite;box-shadow:0 0 60px -12px rgba(168,85,247,.55),0 24px 50px -24px #000}
+.fc b{display:block;font:700 26px/1.1 var(--hd)}.fc span{font:500 10px var(--bd);letter-spacing:.16em;color:var(--mu);text-transform:uppercase}
+.f1{left:0;bottom:20px;--d:14}.f2{right:0;top:6px;--d:-10;animation-delay:-2s}.f3{right:4px;bottom:-4px;--d:8;animation-delay:-4s}
+.f3 b{font-size:13px;letter-spacing:.08em;line-height:1.5}
+@keyframes fl{50%{translate:0 -9px}}
+@media(max-width:940px){.hg{grid-template-columns:1fr;gap:30px}.stage{min-height:0}.panel{margin:0 6px}}
+@media(max-width:520px){.fc{padding:10px 13px}.fc b{font-size:20px}.f3{display:none}.chart{grid-template-columns:1fr}}
+/* about */
+.ag{display:grid;grid-template-columns:.85fr 1.15fr;gap:64px;align-items:center}
+.pf{position:relative;padding:2px;border-radius:30px;background:linear-gradient(150deg,#a855f7,rgba(167,139,250,.08) 45%,#4c1d95);box-shadow:0 0 90px -20px rgba(168,85,247,.5)}
+.pf>div{border-radius:28px;overflow:hidden;background:var(--ch);aspect-ratio:4/5;display:grid;place-items:center}
+.pf img{width:100%;height:100%;object-fit:cover;display:block}
+.ph-yp{font:700 clamp(4rem,10vw,7rem) var(--hd);color:rgba(196,181,253,.16)}
+.cap{position:absolute;left:16px;right:16px;bottom:16px;padding:16px 20px;border-radius:18px}
+.cap b{font:600 18px var(--hd);display:block}.cap span{font-size:13px;color:var(--mu)}
+.pills{display:flex;gap:10px;flex-wrap:wrap;margin-top:26px}
+.pills span{padding:9px 16px;border-radius:99px;border:1px solid var(--ln);background:var(--gl);font-size:13px;color:var(--lav)}
+@media(max-width:860px){.ag{grid-template-columns:1fr;gap:36px}.pf{max-width:420px}}
+/* cards */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:40px}
+.card{padding:30px;transition:.35s}.card:hover{transform:translateY(-6px);border-color:var(--p3)}
+.card em{font:600 12px var(--hd);font-style:normal;color:var(--p3);letter-spacing:.2em}
+.card h3{font-size:1.35rem;margin:26px 0 10px}
+.tile{aspect-ratio:16/10;display:grid;place-items:center;text-align:center;padding:20px;color:var(--mu);font-size:13px;letter-spacing:.08em;background:linear-gradient(150deg,rgba(124,58,237,.18),rgba(255,255,255,.02));border:1px dashed var(--ln);border-radius:22px}
+.big{font:700 clamp(2.2rem,5vw,3.4rem) var(--hd);display:block}
+.end{text-align:center;padding:70px 20px;border-radius:32px}
+.end h2{margin-inline:auto;max-width:760px}
+footer{padding:34px 0;border-top:1px solid var(--ln);color:var(--mu);font-size:13px}
+.fr{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.js .rv{opacity:0;transform:translateY(24px);transition:opacity .9s,transform .9s}.js .rv.in{opacity:1;transform:none}
+/* admin */
+#adm{display:none;position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:80}
+#adm>button{padding:12px 18px;border-radius:99px;border:1px solid var(--p3);background:rgba(20,12,40,.9);color:#fff;font:600 12px var(--bd);letter-spacing:.14em;cursor:pointer}
+#ap{display:none;position:absolute;right:0;bottom:56px;width:min(320px,calc(100vw - 32px));padding:20px;background:#120b22}
+#ap.open{display:block}#ap h3{font-size:1.1rem;margin-bottom:6px}#ap p{font-size:13px;margin-bottom:14px}
+#ap img{width:100%;aspect-ratio:4/5;object-fit:cover;border-radius:14px;margin-bottom:12px;display:none}
+#ap input{width:100%;margin-bottom:12px;color:var(--mu);font-size:13px}#ap .btn{width:100%;justify-content:center;cursor:pointer}#st{font-size:12px;margin-top:10px;color:var(--lav)}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="w nav">
+  <a href="#home" class="logo">YOGESH <i>SHARMA</i></a>
+  <ul class="links" id="lk">
+    <li><a href="#home">HOME</a></li><li><a href="#about">ABOUT</a></li><li><a href="#services">SERVICES</a></li>
+    <li><a href="#portfolio">PORTFOLIO</a></li><li><a href="#experience">EXPERIENCE</a></li><li><a href="#connect">CONNECT</a></li>
+  </ul>
+  <a href="#connect" class="btn pri cta">Let's work together →</a>
+  <button class="burger" id="bg" aria-label="Menu" aria-expanded="false">☰</button>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="w hg">
+  <div>
+    <div class="eyebrow">Jaipur, Rajasthan · India</div>
+    <h1>I CREATE CONTENT<br><span class="grad">THAT GETS ATTENTION.</span></h1>
+    <div class="sub">DIGITAL MARKETING • SOCIAL MEDIA • VIDEO EDITING • CONTENT CREATION</div>
+    <p>Hi, I'm <b>Yogesh Sharma</b> — a content creator and aspiring digital marketer focused on creating useful, engaging and attention-grabbing digital content.</p>
+    <p>I help brands, businesses and creators turn ideas into engaging content through creative video editing, social media marketing, content strategy and digital marketing.</p>
+    <div class="btns"><a href="#portfolio" class="btn pri">View my work</a><a href="#connect" class="btn">Let's connect</a></div>
+  </div>
+  <div class="stage" id="stage" aria-hidden="true">
+    <div class="glass panel">
+      <div class="dots"><i></i><i></i><i></i><span>CREATIVE STUDIO · LIVE</span></div>
+      <div class="tl">
+        <div class="tr"><i class="l" style="width:22%"></i><i style="width:30%"></i><i class="d" style="width:8%"></i><i class="l" style="width:26%"></i></div>
+        <div class="tr"><i class="d" style="width:10%"></i><i style="width:36%"></i><i class="l" style="width:20%"></i><i style="width:18%"></i></div>
+        <div class="tr"><i style="width:48%;opacity:.55"></i><i class="d" style="width:6%"></i><i style="width:34%;opacity:.55"></i></div>
+        <div class="ph"></div>
+      </div>
+      <div class="chart">
+        <div class="cb"><small>YouTube growth</small><strong>+ Rising</strong>
+          <svg viewBox="0 0 200 70" preserveAspectRatio="none"><defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a855f7" stop-opacity=".5"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></linearGradient></defs>
+          <path d="M0 62 L30 56 L60 58 L90 40 L120 44 L150 24 L200 8 L200 70 L0 70Z" fill="url(#g)"/><path d="M0 62 L30 56 L60 58 L90 40 L120 44 L150 24 L200 8" fill="none" stroke="#c4b5fd" stroke-width="2" stroke-linejoin="round"/></svg></div>
+        <div class="cb"><small>Engagement</small><strong>Reels · Shorts</strong>
+          <svg viewBox="0 0 100 70" preserveAspectRatio="none"><g fill="#8b5cf6"><rect x="4" y="40" width="14" height="30" rx="3" opacity=".5"/><rect x="26" y="26" width="14" height="44" rx="3" opacity=".7"/><rect x="48" y="34" width="14" height="36" rx="3" opacity=".6"/><rect x="70" y="10" width="14" height="60" rx="3"/></g></svg></div>
+      </div>
+      <div class="chips"><span>INSTAGRAM REELS</span><span>SEO</span><span>CONTENT STRATEGY</span><span>ANALYTICS</span></div>
+    </div>
+    <div class="glass fc f2"><b class="grad">1.5 YEARS</b><span>Content growth</span></div>
+    <div class="glass fc f1"><b>5,800+</b><span>YouTube subscribers</span></div>
+    <div class="glass fc f3"><b>DIGITAL MARKETING<br>+ VIDEO EDITING</b></div>
+  </div>
+</div></section>
+
+<section id="about"><div class="w ag">
+  <div class="rv">
+    <div class="pf"><div id="pimg"><span class="ph-yp">YS</span></div>
+      <div class="glass cap"><b>Yogesh Sharma</b><span>Content Creator & Aspiring Digital Marketer<br>Jaipur, Rajasthan, India</span></div></div>
+  </div>
+  <div class="rv">
+    <div class="eyebrow">About me</div>
+    <h2>CREATIVE THINKING. <span class="grad">DIGITAL SKILLS.</span> REAL-WORLD LEARNING.</h2>
+    <p>I'm a content creator who learns by doing — building an audience, editing videos and testing what actually earns attention on social media. I care about content that is useful first, and eye-catching second.</p>
+    <div class="pills"><span>Video editing</span><span>Social media marketing</span><span>Content strategy</span><span>Digital marketing</span></div>
+  </div>
+</div></section>
+
+<section id="services"><div class="w">
+  <div class="eyebrow rv">Services</div><h2 class="rv">What I can create <span class="grad">for you.</span></h2>
+  <div class="grid">
+    <div class="glass card rv"><em>01</em><h3>Video Editing</h3><p>Reels, Shorts and YouTube edits with sharp pacing, clean cuts and scroll-stopping hooks.</p></div>
+    <div class="glass card rv"><em>02</em><h3>Social Media Marketing</h3><p>Consistent, on-brand content for Instagram and YouTube that grows reach and engagement.</p></div>
+    <div class="glass card rv"><em>03</em><h3>Content Creation</h3><p>Ideas, scripts and visuals that turn your message into content people want to watch.</p></div>
+    <div class="glass card rv"><em>04</em><h3>Digital Marketing</h3><p>Content strategy and SEO-minded thinking to help your brand get discovered online.</p></div>
+  </div>
+</div></section>
+
+<section id="portfolio"><div class="w">
+  <div class="eyebrow rv">Portfolio</div><h2 class="rv">Selected <span class="grad">work.</span></h2>
+  <div class="grid">
+    <div class="tile rv">FEATURED VIDEO — COMING SOON</div><div class="tile rv">FEATURED REEL — COMING SOON</div><div class="tile rv">FEATURED CAMPAIGN — COMING SOON</div>
+  </div>
+</div></section>
+
+<section id="experience"><div class="w">
+  <div class="eyebrow rv">Experience</div><h2 class="rv">Growth, <span class="grad">in numbers.</span></h2>
+  <div class="grid">
+    <div class="glass card rv"><span class="big grad">5,800+</span><p>YouTube subscribers built through consistent content.</p></div>
+    <div class="glass card rv"><span class="big grad">1.5 yrs</span><p>Of hands-on content creation and growth.</p></div>
+  </div>
+</div></section>
+
+<section id="connect"><div class="w">
+  <div class="glass end rv">
+    <div class="eyebrow" style="justify-content:center">Connect</div>
+    <h2>Have an idea? <span class="grad">Let's make it attention-worthy.</span></h2>
+    <p style="max-width:520px;margin:0 auto 30px">Brands, businesses and creators — tell me what you're building and I'll help bring it to life.</p>
+    <a class="btn pri" href="mailto:">Let's work together →</a>
+  </div>
+</div></section>
+</main>
+<footer><div class="w fr"><span>© 2026 Yogesh Sharma</span><span>Jaipur, Rajasthan, India</span></div></footer>
+
+<div id="adm"><div class="glass" id="ap"><h3>Admin · Profile image</h3><p>Upload a new photo for the About section.</p>
+  <img id="pv" alt=""><input type="file" id="fi" accept="image/*"><button class="btn pri" id="sv">Save image</button><div id="st"></div></div>
+  <button id="ab">ADMIN</button></div>
+
+<script>
+const $=s=>document.querySelector(s);
+const lk=$('#lk'),bg=$('#bg');
+bg.onclick=()=>{const o=lk.classList.toggle('open');bg.setAttribute('aria-expanded',o);bg.textContent=o?'✕':'☰'};
+lk.onclick=e=>{if(e.target.tagName==='A'){lk.classList.remove('open');bg.textContent='☰'}};
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}}),{threshold:.12});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const stg=$('#stage');
+if(matchMedia('(hover:hover)').matches)stg.parentElement.addEventListener('mousemove',e=>{const r=stg.getBoundingClientRect();
+stg.style.setProperty('--mx',((e.clientX-r.left)/r.width-.5).toFixed(2));stg.style.setProperty('--my',((e.clientY-r.top)/r.height-.5).toFixed(2))});
+function setImg(url){$('#pimg').innerHTML='';const i=new Image();i.alt='Yogesh Sharma';i.src=url;$('#pimg').appendChild(i)}
+(async()=>{
+ if(!window.claude)return;
+ try{
+  const db=await claude.use('db');
+  if(db){const ref=db.doc('site/profile');
+   ref.onSnapshot(s=>{const d=s.exists&&s.data();if(d&&d.assetId)setImg('/_blob/'+d.assetId)},()=>{});
+   const [user,assets]=await Promise.all([claude.use('user'),claude.use('assets')]);
+   if(user&&assets&&await user.isOwner()){
+    $('#adm').style.display='block';
+    $('#ab').onclick=()=>$('#ap').classList.toggle('open');
+    let f=null;
+    $('#fi').onchange=e=>{f=e.target.files[0];if(f){$('#pv').src=URL.createObjectURL(f);$('#pv').style.display='block'}};
+    $('#sv').onclick=async()=>{
+     if(!f){$('#st').textContent='Choose an image first.';return}
+     $('#st').textContent='Uploading…';
+     try{const r=await assets.upload(f);await ref.set({assetId:r.id});$('#st').textContent='Saved ✓'}
+     catch(e){$('#st').textContent='Could not save: '+((e&&e.message)||'try again')}
+    };
+   }
+  }
+ }catch(e){}
+})();
+</script>
+</body>
+</html>
